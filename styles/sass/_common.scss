@@ -1,0 +1,88 @@
+.wrapper {
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+body {
+    font-family: $primary-font;
+}
+
+img {
+    width:100%;
+  
+   
+    display: block;
+}
+
+p,ul {
+    font-size: 18px;
+    line-height: 2;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    margin: 30px auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/*the unique needs*/
+
+.improvementOne {
+    display: flex;
+    justify-content: space-between;
+}
+
+.improvementOne .columnOne {
+    width: 50%;
+}
+
+.improvementOne .columnTwo {
+    width: 30%;
+}
+
+.improvementOne img {
+    height: 300px;
+    border:2px solid black;
+}
+
+
+p.needs {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.quotes {
+
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 10px solid gold;
+    text-align: justify;
+}
+
+.improvement {
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+}
+
+.improvementText {
+
+    padding-left: 40px;
+  
+
+}
