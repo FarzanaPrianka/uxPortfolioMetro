@@ -268,19 +268,21 @@ h1 {
   font-weight: bold;
 }
 
-.introduction {
-  padding-bottom: 40px;
-  border-bottom: 1px solid lightgray;
-}
-
 .disclaimer {
   font-style: italic;
   margin-top: 30px;
 }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 1000px;
   margin: 0 auto;
+  border: 1px solid rgba(220, 220, 220, 0.7);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+header .wrapper {
+  border: none;
 }
 
 body {
@@ -302,15 +304,40 @@ li {
 }
 
 section {
-  margin: 30px auto;
+  padding: 30px 0;
+}
+
+.subSection {
+  padding-top: 10px;
 }
 
 h2 {
   font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.7);
+}
+
+header h2 {
+  border: none;
 }
 
 h3 {
   font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  color: grey;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+}
+
+.important {
+  font-weight: bold;
 }
 
 /*the unique needs*/
@@ -324,7 +351,7 @@ h3 {
 }
 
 .improvementOne .columnOne {
-  width: 50%;
+  width: 65%;
 }
 
 .improvementOne .columnTwo {
@@ -360,44 +387,31 @@ p.needs {
   padding-left: 40px;
 }
 
-.methodology {
-  border: 1px solid black;
-  padding-left: 40px;
+.errorPrevention {
+  width: 80%;
+  margin: 0 auto 50px;
 }
 
-.method {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 1px solid black;
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: white;
 }
 
-.methodDetail {
-  width: 70%;
+footer {
+  background-image: -webkit-gradient(linear, left top, right top, from(#434343), to(black));
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
-.imageContainer {
-  width: 20%;
-  margin: 0 auto;
+.empathyMap {
+  margin: 20px auto;
 }
 
 .accIssue {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.accIssueDescription {
-  width: 50%;
+  margin-bottom: 50px;
 }
 
 .accIssueImage {
-  width: 50%;
   border: 1px solid black;
 }
