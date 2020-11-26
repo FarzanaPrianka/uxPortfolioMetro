@@ -274,7 +274,7 @@ h1 {
 }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 980px;
   margin: 0 auto;
   border: 1px solid rgba(220, 220, 220, 0.7);
   border-radius: 10px;
@@ -390,6 +390,15 @@ p.needs {
 .errorPrevention {
   width: 80%;
   margin: 0 auto 50px;
+}
+
+.rating {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.reflection li {
+  list-style-type: circle;
 }
 
 footer p {
