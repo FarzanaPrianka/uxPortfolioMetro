@@ -1,9 +1,13 @@
 .wrapper {
-    max-width: 980px;
+    max-width: 1100px;
     margin:0 auto;
-    border: 1px solid rgba(220,220,220,0.7);
-    border-radius: 10px;
-    padding: 40px;
+    // border: 1px solid rgba(220,220,220,0.7);
+    // border-radius: 10px;
+    padding: 40px 0;
+}
+
+span {
+    font-weight: bold;
 }
 
 header .wrapper {
@@ -31,8 +35,6 @@ li {
 }
 
 section {
-    
-    
     padding: 30px 0;
 }
 
@@ -43,8 +45,9 @@ section {
 
 h2 {
     font-size: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(220,220,220,0.7);
+    margin: 20px auto;
+   
+    // border-bottom: 1px solid rgba(220,220,220,0.7);
 }
 
 header h2 {
@@ -58,18 +61,179 @@ h3 {
 
 h4 {
     font-size: 21px;
+   
 }
 
 h5 {
-    color:grey;
+    
     font-weight: normal;
-    text-align: center;
+    
     font-size: 18px;
+}
+
+.layoutDesign {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 20%;
+    
+    
+}
+
+.sectionText {
+    width: 70%;
+    flex: 0 1 auto;
 }
 
 .important {
     font-weight: bold;
 }
+
+// design process---------------------------
+
+.designProcess {
+    width: 80%;
+    margin: 0 auto;
+}
+
+// the research-------------------------------
+
+.research .goals {
+    margin-top: 18px;
+    // padding-top: 0;
+}
+
+.keyQuestions{
+    padding:0;
+}
+
+.methodDiagram {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.methodDiagram div {
+    width: 30%;
+    // background-color: rgb(235, 235, 235);
+
+     margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border:1px solid rgba(180, 174, 174, 0.3);
+    box-shadow:      
+              10px 10px rgba(0, 98, 90, 0.2),
+              20px 20px rgba(0, 98, 90, 0.1),
+              25px 25px rgba(0, 98, 90, 0.05);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.methodDiagram p {
+
+    font-size:15px;
+    line-height: 1.8;
+}
+
+.methodDiagram h5 {
+    font-weight: bold;
+}
+
+// insights----------
+
+.userQuotes {
+    text-align: right;
+    color:grey;
+    font-size: 15px;
+    width: 80%;
+    margin:0 auto;
+    font-style: italic;
+}
+
+.quotes {
+
+    // margin-left: 40px;
+    // padding-left: 40px;
+    // padding-right: 40px;
+    padding: 20px;
+    // background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+
+    // border-left: 5px solid gold;
+    // text-align: justify;
+    font-style: italic;
+    border:1px solid rgba(180, 174, 174, 0.3);
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:      
+              10px 10px rgba(0, 98, 90, 0.2),
+              20px 20px rgba(0, 98, 90, 0.1),
+              25px 25px rgba(0, 98, 90, 0.05);
+}
+
+.quotes p {
+    margin-left: 15px;
+}
+
+.quotes h5 {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.interface {
+    margin-bottom: 30px;
+}
+
+.errorPrevention {
+    margin: 0 auto;
+    border:1px solid black;
+}
+
+//designDecision
+
+.designDecision {
+    margin: 0 0 60px;
+}
+
+//design decisions
+
+.productDetailsContainer {
+    width: 60%;
+    margin:0 auto;
+}
+
+.scan {
+    display:flex;
+    justify-content: space-between;
+}
+
+.scanText, .inventoryText {
+    width: 60%;
+   
+}
+
+.scanImage, .inventoryImage {
+    width: 30%;
+}
+
+.inventory {
+    display: flex;
+    justify-content: space-between;
+}
+
+//deliver
+
+.finalPrototype {
+    width:60%;
+    margin: 30px auto;
+}
+
 
 
 /*the unique needs*/
@@ -99,14 +263,7 @@ p.needs {
     margin-left: 40px;
 }
 
-.quotes {
 
-    margin-left: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-left: 10px solid gold;
-    text-align: justify;
-}
 
 .improvement {
     margin-left: 40px;
@@ -119,8 +276,6 @@ p.needs {
 .improvementText {
 
     padding-left: 40px;
-  
-
 }
 
 .errorPrevention {
