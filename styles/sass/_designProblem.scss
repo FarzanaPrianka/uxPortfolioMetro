@@ -5,15 +5,17 @@
 }
 
 .problemStatementParts {
-    border:1px solid rgba(180, 174, 174, 0.3);
+    // border:1px solid rgba(180, 174, 174, 0.3);
     width: 48%;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow:      
-              10px 10px rgba(0, 98, 90, 0.2),
-              20px 20px rgba(0, 98, 90, 0.1),
-              25px 25px rgba(0, 98, 90, 0.05);
+    // box-shadow:      
+    //           10px 10px rgba(0, 98, 90, 0.2),
+    //           20px 20px rgba(0, 98, 90, 0.1),
+    //           25px 25px rgba(0, 98, 90, 0.05);
+
+    background-color:rgb(242, 242, 242);
 }
 
 .problemStatementParts h5 {

@@ -1,7 +1,23 @@
+.backgroundDescription {
+    display: flex;
+}
 
+.backgroundDescriptionPrototype {
+    width: 20%;
+}
 
 .disclaimer {
     font-style: italic;
     margin-top: 30px;
 }
+
+
+.navBar {
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
 
