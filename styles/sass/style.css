@@ -351,7 +351,7 @@ section {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 30px;
   margin: 20px auto;
   line-height: 40px;
 }
@@ -365,7 +365,7 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 21px;
 }
 
 h5 {
@@ -488,7 +488,6 @@ h5 {
 
 .quotes p {
   margin-left: 15px;
-  font-size: 15px;
 }
 
 .quotes h5 {
@@ -510,17 +509,34 @@ h5 {
 }
 
 .productDetailsContainer {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
+}
+
+.scan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .scanText, .inventoryText {
-  width: 100%;
+  width: 60%;
 }
 
 .scanImage, .inventoryImage {
-  width: 50%;
-  margin: 0 auto;
+  width: 30%;
+}
+
+.inventory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .finalPrototype {
@@ -620,11 +636,6 @@ footer {
   font-weight: bold;
 }
 
-.problemStatementParts p {
-  font-size: 15px;
-  line-height: 1.8;
-}
-
 .accIssue {
   margin-bottom: 50px;
 }
@@ -632,3 +643,4 @@ footer {
 .accIssueImage {
   border: 1px solid black;
 }
+/*# sourceMappingURL=style.css.map */

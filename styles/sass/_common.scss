@@ -53,7 +53,7 @@ section {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 32px;
     margin: 20px auto;
     line-height: 40px;
     
@@ -71,7 +71,7 @@ h3 {
 }
 
 h4 {
-    font-size: 21px;
+    font-size: 20px;
    
 }
 
@@ -221,6 +221,7 @@ z-index: 1;
 
 .quotes p {
     margin-left: 15px;
+    font-size: 15px;
 }
 
 .quotes h5 {
@@ -246,28 +247,29 @@ z-index: 1;
 //design decisions
 
 .productDetailsContainer {
-    width: 60%;
+    width: 90%;
     margin:0 auto;
 }
 
-.scan {
-    display:flex;
-    justify-content: space-between;
-}
+// .scan {
+//     display:flex;
+//     justify-content: space-between;
+// }
 
 .scanText, .inventoryText {
-    width: 60%;
+    width: 100%;
    
 }
 
 .scanImage, .inventoryImage {
-    width: 30%;
+    width: 50%;
+    margin: 0 auto;
 }
 
-.inventory {
-    display: flex;
-    justify-content: space-between;
-}
+// .inventory {
+//     display: flex;
+//     justify-content: space-between;
+// }
 
 //deliver
 
